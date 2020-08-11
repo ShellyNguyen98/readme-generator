@@ -27,13 +27,20 @@ inquirer
           message: "What is the title of the project?"
         },
         {
-
-        }
+          type: "input",
+          name: "description",
+          message: "Write down any description for your project."
+        },
+        {
+            type: "input",
+            name: "projectTitle",
+            message: "What is the title of the project?"
+          },
+        
     ])
     .then(res => {
         console.log()
     })
     .catch(err => console.log(err))
-
 
     // Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
