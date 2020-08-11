@@ -38,7 +38,7 @@ inquirer
         },
         {
             type: "input",
-            name: "projectTitle",
+            name: "Usage",
             message: "What is the title of the project?"
         },
   
@@ -47,6 +47,9 @@ inquirer
         console.log()
     })
     .catch(err => console.log(err))
-
-
-    // Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+    
+    
+	fs.writeFile('README.md', `${projectTitle}`, (err) => {
+	if (err) {console.log(err)}
+    console.log('Title Name created!')
+    })
