@@ -33,10 +33,15 @@ inquirer
         },
         {
             type: "input",
+            name: "installation",
+            message: "Write down any installation needed for the project."
+        },
+        {
+            type: "input",
             name: "projectTitle",
             message: "What is the title of the project?"
-          },
-        
+        },
+  
     ])
     .then(res => {
         console.log()
