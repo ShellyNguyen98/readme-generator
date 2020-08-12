@@ -28,8 +28,8 @@ function generateMarkdown(answers) {
   ${answers.contributing}
 
   ## Questions
-  ${answers.email} <br/>
-<br/>
+  ${answers.email} 
+
 
 Find me on Github: [${answers.username}](https://github.com/${answers.username}) <br />
 <br />
