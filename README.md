@@ -7,7 +7,8 @@
  Below is the gif showing the functionality of the application:
  ![Demonstration of readme gile](clip/gif.gif)
 
- !(clip/readme.webm)
+
+ Click [here](clip/readme.webm) to see the full clip 
 
 ## User Story
 AS A developer
