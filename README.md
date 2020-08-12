@@ -1,8 +1,10 @@
 #
-  <h1> Readme generator using Nodejs </h1>
+  <h1> Readme Generator </h1>
 
  ## Description
- s
+ Using Nodejs and inquirer to create a ReadMe
+
+ ![Demonstration of readme gile](clip/gif.gif)
 
  # Table of Contents
  - [Description](#description)
@@ -13,20 +15,20 @@
  - [Question](#userName)
 
   ## Installation 
-  s
+  
 
   ## Usage
-  s
+  
 
   ## License
   ![badge](https://img.shields.io/badge/license-MIT-blue.svg)<br/>
   This application is covered by the MIT license.
 
   ## Contributing
-  s
+  
 
   ## Questions
-  ss 
+   
 
 
 Find me on Github: [undefined](https://github.com/undefined) <br />
