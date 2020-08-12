@@ -12,8 +12,7 @@ function generateMarkdown(answers) {
  - [Usage](#usage)
  - [License](#license)
  - [Contributing](#contributing)
- - [Test](#test)
- - [Question](#question)
+ - [Question](#userName)
 
   ## Installation 
   ${answers.installation}
@@ -28,11 +27,8 @@ function generateMarkdown(answers) {
   ## Contributing
   ${answers.contributing}
 
-  ## Test
-  ${answers.test}
-
   ## Questions
-  ${answers.question} <br/>
+  ${answers.email} <br/>
 <br/>
 
 Find me on Github: [${answers.username}](https://github.com/${answers.username}) <br />
