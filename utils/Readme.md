@@ -1,8 +1,8 @@
 #
-  <h1> ss </h1>
+  <h1> ReadMe generator </h1>
 
  ## Description
- s
+ using nodejs to create a readme
 
  # Table of Contents
  - [Description](#description)
@@ -13,23 +13,23 @@
  - [Question](#userName)
 
   ## Installation 
-  s
+  no
 
   ## Usage
-  s
+  class
 
   ## License
-  ![badge](https://img.shields.io/badge/license-MIT-blue.svg)<br/>
-  This application is covered by the MIT license.
+  ![badge](https://img.shields.io/badge/license-APACHE2.0-blue.svg)<br/>
+  This application is covered by the APACHE2.0 license.
 
   ## Contributing
-  s
+  Shelly
 
   ## Questions
-  ss 
+  shellynguyen98@gmail.com 
 
 
-Find me on Github: [undefined](https://github.com/undefined) <br />
+Find me on Github: [ShellyNguyen98](https://github.com/ShellyNguyen98) <br />
 <br />
-Email me with any questions: ss<br /><br />
+Email me with any questions: shellynguyen98@gmail.com<br /><br />
 
