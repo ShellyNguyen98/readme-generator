@@ -4,7 +4,7 @@
  ## Description
  Using Nodejs and inquirer to create a ReadMe
 
- Below is the gif showing the functionality of the application:
+ ### Below is the gif showing the functionality of the application:
  ![Demonstration of readme gile](clip/gif.gif)
 
 
