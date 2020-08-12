@@ -19,8 +19,7 @@ const inquirer = require ('inquirer')
 const fs = require('fs')
 const generateMarkdown = require ('./utils/generateMarkdown')
 
-inquirer 
-    .prompt([
+inquirer.prompt([
         {
           type: "input",
           name: "projectTitle",
@@ -38,35 +37,40 @@ inquirer
         },
         {
             type: "input",
-            name: "Usage",
+            name: "usage",
             message: "What is the project used for?"
         },
         {
-            type: "input",
-            name: "License",
-            message: "What are the licenses?",
-            choice: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
+            type: "list",
+            name: "license",
+            message: "What are the licenses for the project?",
+            choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
         },
         {
             type: "input",
-            name: "Contributing",
+            name: "contributing",
             message: "Who are the contributors of the project?"
         },
         {
             type: "input",
-            name: "Test",
+            name: "test",
             message: "Are there any tests?"
         },
         {
             type: "input",
-            name: "Question",
-            message: "Are there anny question?"
+            name: "userName",
+            message: "What is your Github username?"
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "What is your email?"
         },
   
     ])
-    .then(res => {
-        console.log()
+
+    .then(answers => {
+        console.log(answers.projectTitle)
     })
     .catch(err => console.log(err))
-    
-    
+
