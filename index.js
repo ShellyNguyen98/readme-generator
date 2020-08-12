@@ -39,7 +39,28 @@ inquirer
         {
             type: "input",
             name: "Usage",
-            message: "What is the title of the project?"
+            message: "What is the project used for?"
+        },
+        {
+            type: "input",
+            name: "License",
+            message: "What are the licenses?",
+            choice: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
+        },
+        {
+            type: "input",
+            name: "Contributing",
+            message: "Who are the contributors of the project?"
+        },
+        {
+            type: "input",
+            name: "Test",
+            message: "Are there any tests?"
+        },
+        {
+            type: "input",
+            name: "Question",
+            message: "Are there anny question?"
         },
   
     ])
@@ -49,7 +70,3 @@ inquirer
     .catch(err => console.log(err))
     
     
-	fs.writeFile('README.md', `${projectTitle}`, (err) => {
-	if (err) {console.log(err)}
-    console.log('Title Name created!')
-    })
