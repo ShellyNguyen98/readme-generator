@@ -12,8 +12,8 @@ function generateMarkdown(answers) {
  - [Usage](#usage)
  - [License](#license)
  - [Contributing](#contributing)
- - [Tests](#test)
- - [Questions](#question)
+ - [Test](#test)
+ - [Question](#question)
 
   ## Installation 
   ${answers.installation}
@@ -28,7 +28,7 @@ function generateMarkdown(answers) {
   ## Contributing
   ${answers.contributing}
 
-  ## Tests
+  ## Test
   ${answers.test}
 
   ## Questions
